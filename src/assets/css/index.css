@@ -1,0 +1,106 @@
+html{
+    min-width: 320px;
+    overflow-x: hidden;
+  }
+  
+html, body {
+/* height: 100%; */
+/* min-height: 930px; */
+line-height: 1;
+-webkit-user-select: none;
+-webkit-touch-callout: none;
+-webkit-overflow-scrolling: touch; 
+-webkit-font-smoothing: antialiased; 
+-webkit-tap-highlight-color: rgba(242, 137, 76, .05); 
+background: #072f50;
+}
+  
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, span, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+margin: 0;
+padding: 0;
+list-style: none;
+-webkit-text-size-adjust: none;
+-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;
+box-sizing: border-box;
+word-wrap: break-word;
+}
+.container{
+  width: 100%;
+  position: relative;
+}
+#myChart{
+  width:50%;
+  height:500px;
+  margin-left: 25.5%;
+  margin-top:1%;
+}
+.container-left-top{
+  width: 22%;
+  height: 264px;
+  position: absolute;
+  left: 2%;
+  top: -10%;
+}
+.container-left-top h2,.aleftboxtmidd h2,.aleftboxtbott h2,.arightboxtop h2,.yright h2{font-size: 14px;color: #fff;text-align: center;line-height: 36px;}
+.title-area span{margin-left: 18px;}
+.title-area span,.title-area b{font-weight: 100;font-size: 12px;color: #fff;}
+.title-area b{color:#ccc;margin-left: 179px;}
+
+
+.lefttoday_number{overflow: hidden; height: 74%; width: 91%; margin: 1% 4%;background: rgba(1,202,217,.2);}
+.widget-inline-box{ text-align: center; color:rgba(255,255,255,.9); width: 50%; padding: 10% 0;text-align: center; font-size: 12px;float: left; overflow:hidden;}
+
+.widget-inline-box{width: 24.2%; margin: 0 .4%;    background: rgba(1,202,217,.2); padding: 16% 0; height:100%; font-size: 10px;}
+
+.text-muted{color: #789ce0;}
+
+.aleftboxtmidd{width: 22%;height: 281px;position: absolute;left: 2%;top: 44%;}
+
+
+.lefttoday_tit{ overflow: hidden; padding: 1.9% 5% .2%;  height: 6%; position: relative;}
+.lefttoday_tit.height{height: 12%;}
+
+.lefttoday_tit.height.ht{height: 12%;}
+.lefttoday_tit p.fl{ font-size: 12px; color: rgba(255,255,255,1);  position: absolute;left: 5%;top: 22%}
+.lefttoday_tit p.fr{ font-size: 12px; color: rgba(255,255,255,.6); position: absolute;right: 5%;top: 25%}
+.lefttoday_tit.height p.fr{position: absolute;left:5%;top: 65%; right: auto;}
+
+.aleftboxtmiddcont{width:91%; height:66%;margin-left: 4.4%; margin-top: 1%;}
+.aleftboxtbott{width: 22%;height: 340px;position: absolute;left: 2%;top: 102%;}
+.aleftboxtbott_cont{width:91%; height:72.6%; margin-top: 1.8%;margin-left: 4.4%;}
+
+.yline-cont{width: 50%;height: 350px;position: absolute;left: 25.5%;top: 102%;}
+
+.arightboxtop{width: 21%;height: 550px;position: absolute;right: 2%;top: -9%;}
+.left2_table{ width: 91%; margin-left: 5%; font-size: 12px;height:83.6%; overflow-y: auto;}
+.left2_table li{position: relative;overflow: hidden; padding: 5.5% 6%; color:rgba(255,255,255,.7); line-height: 150%;margin-top: 10px;}
+.left2_table li.bg{background: rgba(1,202,217,.2) no-repeat  top left; }
+.left2_table li p.fr{ position: absolute; right: 5%; top: -20%;}
+
+.yright{width: 21%;height: 335px;position: absolute;right: 2%;top:104%;}
+.yright_cont{height: 280px;width: 330px;margin: 0 auto;}
+
+.left2_table li .in_holtel{position: absolute;right: 0px;top: 0px;padding: 5px;background: #f94c0d;}
+.left2_table li .out_holtel{position: absolute;right: 0px;top: 0px;padding: 5px;background: #02855b;}
+
+/*修改滚动条样式*/
+div::-webkit-scrollbar{
+  width:5px;
+  height:5px;
+  /**/
+}
+div::-webkit-scrollbar-track{
+  background: rgb(239, 239, 239);
+  border-radius:2px;
+}
+div::-webkit-scrollbar-thumb{
+  background: #01364f;
+  border-radius:10px;
+}
+div::-webkit-scrollbar-thumb:hover{
+  background: #333;
+}
+div::-webkit-scrollbar-corner{
+  background: #179a16;
+}
